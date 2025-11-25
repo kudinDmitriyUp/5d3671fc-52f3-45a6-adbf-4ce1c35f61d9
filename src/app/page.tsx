@@ -32,7 +32,6 @@ export default function LandingPage() {
         <NavbarStyleMinimal 
           brandName="AIFlow"
           button={{ text: "Get Started", href: "contact" }}
-          className="border-b border-current border-opacity-10"
         />
       </div>
 
@@ -359,7 +358,7 @@ export default function LandingPage() {
                 { label: "Contact", href: "contact" }
               ]
             }
-          ]
+          ]}
         />
       </div>
     </ThemeProvider>
