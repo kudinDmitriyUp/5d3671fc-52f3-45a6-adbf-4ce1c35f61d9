@@ -88,7 +88,7 @@ export default function LandingPage() {
           ]}
           animationType="blur-reveal"
           textboxLayout="default"
-          titleClassName="text-4xl font-bold"
+          cardTitleClassName="text-4xl font-bold"
           descriptionClassName="text-lg max-w-2xl"
         />
       </div>
