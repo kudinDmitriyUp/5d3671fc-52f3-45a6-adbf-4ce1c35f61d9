@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -53,7 +53,7 @@ export default function LandingPage() {
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764062643923-0fmw06ft.jpg", imageAlt: "AI technology data processing" },
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764062645157-74lxnufe.jpg", imageAlt: "Machine learning automation" },
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764062645954-v0dmzmvm.jpg", imageAlt: "AI automation workplace" }
-          ]
+          ]}
           className="min-h-screen"
           titleClassName="text-5xl lg:text-6xl font-bold tracking-tight"
           descriptionClassName="text-lg lg:text-xl max-w-2xl"
@@ -182,7 +182,7 @@ export default function LandingPage() {
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764062655414-foj2mf3s.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764062656165-g8a1m4e2.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764062656943-258ezsc1.jpg"
-          ]
+          ]}
           textboxLayout="default"
           speed={40}
           showCard={true}
@@ -242,7 +242,7 @@ export default function LandingPage() {
                 "On-premise option"
               ]
             }
-          ]
+          ]}
           animationType="slide-up"
           textboxLayout="default"
           titleClassName="text-4xl font-bold"
@@ -288,7 +288,7 @@ export default function LandingPage() {
               title: "How does billing work? Can I change plans anytime?",
               content: "Billing is monthly or annual. You can upgrade or downgrade anytime. Unused credits are rolled over, and we prorate charges when you make changes mid-month."
             }
-          ]
+          ]}
           textboxLayout="default"
           animationType="smooth"
           titleClassName="text-4xl font-bold"
